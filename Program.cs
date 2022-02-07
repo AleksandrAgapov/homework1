@@ -1,6 +1,11 @@
 ﻿// 1.	1.	Вывести квадрат числа
-Console.WriteLine( "введите число");
-string a = Console.ReadLine();
-s = a * a;
 
-Console.Write("s");
+
+Console.Write("Ведите число: ");
+
+double a = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("{0} в квадрате {1}", a, Math.Pow(a, 2));
+
+
+Console.ReadLine();
